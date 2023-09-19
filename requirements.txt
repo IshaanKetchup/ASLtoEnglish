@@ -1,0 +1,4 @@
+mediapipe
+mediapipe opencv-python
+opencv
+cv2
