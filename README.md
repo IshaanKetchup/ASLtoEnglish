@@ -9,4 +9,5 @@ While currently still a little buggy and incomplete, the finished project will b
 ## Upcoming Features
 Once we've finished mapping more ASL Gestures, we intend to implement the translator on a webpage, to facilitate easier access. This will be done via a Flask backend, and HTML/CSS/JavaScript frontend.
 
+![WhatsApp Image 2023-09-20 at 03 12 39](https://github.com/IshaanKetchup/brein/assets/88713875/942ec8e8-7af1-4197-8dd1-8dbc72e87b51)
 
