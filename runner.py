@@ -52,43 +52,22 @@ def letter(handpoints, image):
         cv2.putText(image,"B",(10,30), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,255),1)
 
     if(
-    #thumb.x
-    handpoints[4].x>handpoints[3].x and
-    handpoints[3].x>handpoints[2].x and
-    handpoints[2].x>handpoints[1].x and
-    #index.x
-    handpoints[8].x > handpoints[7].x and
-    handpoints[7].x > handpoints[6].x and
-    handpoints[6].x > handpoints[5].x and
-    #index.y
-    handpoints[8].y > handpoints[7].y and
-    handpoints[7].y > handpoints[6].y and
-    handpoints[5].y > handpoints[6].y and
-    #middle.x
-    handpoints[12].x > handpoints[11].x and
-    handpoints[11].x > handpoints[10].x and
-    handpoints[10].x > handpoints[9].x and
-    #middle.y
-    handpoints[12].y > handpoints[11].y and
-    handpoints[11].y > handpoints[10].y and
-    handpoints[9].y > handpoints[10].y and
-    #ring.x
-    handpoints[16].x > handpoints[15].x and
-    handpoints[15].x > handpoints[14].x and
-    handpoints[14].x > handpoints[13].x and
-    #ring.y
-    handpoints[16].y > handpoints[15].y and
-    handpoints[15].y > handpoints[14].y and
-    handpoints[13].y > handpoints[14].y and
-    #pinky.x
-    handpoints[20].x > handpoints[19].x and
-    handpoints[19].x > handpoints[18].x and
-    handpoints[18].x > handpoints[17].x and
-    #pinky.y
-    handpoints[20].y > handpoints[19].y and
-    handpoints[19].y > handpoints[18].y and
-    handpoints[17].y > handpoints[18].y):
-        cv2.putText(image,"C",(10,30), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,255), 1)
+    handpoints[4].x > handpoints[3].x and
+    handpoints[3].x > handpoints[2].x and
+    handpoints[4].y > handpoints[5].y and
+  
+    handpoints[5].y > handpoints[8].y and
+    handpoints[8].y > handpoints[6].y and
+
+    handpoints[9].y > handpoints[12].y and
+    handpoints[12].y > handpoints[10].y and
+
+    handpoints[13].y > handpoints[16].y and
+    handpoints[16].y > handpoints[14].y and
+
+    handpoints[17].y > handpoints[20].y and
+    handpoints[20].y > handpoints[18].y):
+      cv2.putText(image,"C",(10,30), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,255),1)
 
     if (
         handpoints[5].y > handpoints[6].y and
