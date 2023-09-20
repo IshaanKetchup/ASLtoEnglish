@@ -3,7 +3,7 @@
 Seeing the lack of ASL to English Translators available online, we decided to start this project.
 Using OpenCV to process video, and MediaPipe to track hand gestures (using landmark coordinates), we aim to first, effectively and accurately translate ASL to the English Alphabet.
 
-## Issues
+## Issues 
 i. Tracking dynamic hand gestures for alphabets like J and Z is proving to be a little difficult uing MediaPipe and OpenCV
   Our solution - to map the static final position of such dynamically gestured letters
 
