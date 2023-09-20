@@ -5,8 +5,7 @@ Using OpenCV to process video, and MediaPipe to track hand gestures (using landm
 
 ## Issues
 i. Tracking dynamic hand gestures for alphabets like J and Z is proving to be a little difficult uing MediaPipe and OpenCV
-
-ii. Web framework is still a little bare
+  Our solution - to map the static final position of such dynamically gestured letters
 
 ## Goal
 While currently still a little buggy and incomplete, the finished project will be be used to help people learn ASL Gestures by practicing on the web.
