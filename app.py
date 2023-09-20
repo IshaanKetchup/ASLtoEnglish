@@ -147,6 +147,30 @@ def letter(handpoints, image):
         handpoints[3].x>handpoints[2].x and
         handpoints[3].x>handpoints[4].x):
         return "I"
+    
+    if(handpoints[0].x<handpoints[1].x and
+        handpoints[0].x<handpoints[9].x and
+        
+        handpoints[2].x<handpoints[3].x and
+        handpoints[3].x<handpoints[4].x and
+        
+        handpoints[20].x>handpoints[18].x and
+
+        handpoints[15].x>handpoints[16].x and
+        handpoints[15].x<handpoints[14].x and
+        
+        handpoints[11].x>handpoints[12].x and
+        handpoints[11].x<handpoints[10].x and
+        
+        handpoints[7].x>handpoints[5].x and
+        handpoints[7].x<handpoints[6].x and
+        
+        handpoints[5].y<handpoints[9].y and
+        handpoints[9].y<handpoints[13].y and
+        handpoints[13].y<handpoints[17].y and 
+        
+        handpoints[4].y<handpoints[3].y):
+        return "J"
 
     if(handpoints[8].y<handpoints[6].y and
        handpoints[6].y<handpoints[5].y and
